@@ -40,7 +40,7 @@ public:
 int main() {
     try {
         ImageCropper processor("test.jpg");
-        processor.cropAndSave(80, 280, 150, 330, "oop_crop.jpg");
+        processor.cropAndSave(80, 280, 150, 330, "crop.jpg");
     }
     catch (const exception& e) {
         cerr << e.what() << endl;
